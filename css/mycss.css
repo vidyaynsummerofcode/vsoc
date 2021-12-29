@@ -1,3 +1,9 @@
+.header .container img{
+    width: 30vw;
+}
+
+
+
 .meraimg{
     /* border: 1px solid green; */
     border-radius: 1vh;
@@ -18,8 +24,9 @@
     margin-top: 1vh;
 }
 .meraimg:hover{
-    width: 30vw;
+    width: 28.66vw;
     transition: ease-in-out 0.3s;
+    
 }
 .maincar1{
     border: 1px solid #a3a09c;
@@ -29,6 +36,9 @@
     font-family: 'Times New Roman', Times, serif;
     border-radius: 2vh;
     box-shadow: 10px 10px #d4d2d0;
+}
+.maincar1:hover{
+    box-shadow: 10px 10px rgb(255, 236, 200);
 }
 
 .maincar1 h5{
@@ -143,14 +153,20 @@
         /* height: 20vh; */
     }
     .meraimg:hover{
-        width: 42vw;
+        width: 40.44vw;
         transition: ease-in-out 0.3s;
     }
 
     
 }
-@media (max-width:888px) {
-
+@media (max-width:888px) 
+{
+    .header .container img
+    {
+       width: 40vw;
+       /* border: 2px solid black; */
+    }
+    
     .social{
         /* border: 3px solid black; */
         justify-content: center;
@@ -218,8 +234,12 @@
     
 } */
 @media (max-width:586px) {
-
-
+    
+    .header .container img{
+       width: 48vw;
+       /* border: 2px solid black; */
+    }
+    
     .o-card  img{
         /* border: 3px solid black; */
         width: 70vw;
@@ -227,7 +247,7 @@
     }
 
     .meraimg:hover{
-        width: 72vw;
+        width: 70.66vw;
         transition: ease-in-out 0.3s;
     }
 
@@ -274,6 +294,10 @@
 } */
 @media (max-width:450px) {
     
+    .header .container img{
+        width: 52vw;
+        /* border: 2px solid black; */
+    }
     
     .o-card  img{
         /* border: 3px solid black; */
@@ -281,7 +305,7 @@
         /* height: 20vh; */
     }
     .meraimg:hover{
-        width: 79vw;
+        width: 77.88vw;
         transition: ease-in-out 0.3s;
     }
     .social{
@@ -309,7 +333,6 @@
     
     
     
-    
 }
 /* @media (max-width:400px) {
     .meraimg{
@@ -331,14 +354,19 @@
 @media (max-width:388px) {
     
     
+        .header .container img{
+            width: 55vw;
+            /* border: 2px solid black; */
+        }
+    
     .o-card  img{
         /* border: 3px solid black; */
         width: 80vw;
         /* height: 20vh; */
     }
-
+    
     .meraimg:hover{
-        width: 82vw;
+        width: 80.66vw;
         transition: ease-in-out 0.3s;
     }
     
