@@ -19,6 +19,9 @@
   width: 40px !important;
   height: 40px !important;
 }
+.header .container img{
+  width: 30vw;
+}
 
 .icon-md {
   width: 60px !important;
@@ -3049,3 +3052,34 @@ code {
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #6c757d;
 }
+@media (max-width:888px) 
+{
+    .header .container img
+    {
+       width: 40vw;
+       /* border: 2px solid black; */
+    }
+  }
+  @media (max-width:586px) {
+  
+    .header .container img{
+       width: 48vw;
+       /* border: 2px solid black; */
+    }
+  }
+  @media (max-width:450px) {
+  
+    .header .container img{
+        width: 52vw;
+        /* border: 2px solid black; */
+    }
+  }
+  @media (max-width:388px) {
+  
+  
+    .header .container img{
+        width: 55vw;
+        /* border: 2px solid black; */
+    }
+
+  }

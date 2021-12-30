@@ -7,7 +7,9 @@
 .device-wrapper {
   /*max-width: 300px;*/
   width: 100%; }
-
+  .header .container img{
+    width: 30vw;
+}
 .device {
   position: relative;
   background-size: cover; }
@@ -1621,3 +1623,35 @@
     left: 44.9781659389%;
     width: 11.3537117904%;
     height: 4.3103448276%; }
+
+    @media (max-width:888px) 
+    {
+        .header .container img
+        {
+           width: 40vw;
+           /* border: 2px solid black; */
+        }
+      }
+      @media (max-width:586px) {
+      
+        .header .container img{
+           width: 48vw;
+           /* border: 2px solid black; */
+        }
+      }
+      @media (max-width:450px) {
+      
+        .header .container img{
+            width: 52vw;
+            /* border: 2px solid black; */
+        }
+      }
+      @media (max-width:388px) {
+      
+      
+        .header .container img{
+            width: 55vw;
+            /* border: 2px solid black; */
+        }
+  
+      }

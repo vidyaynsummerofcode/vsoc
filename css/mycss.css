@@ -1,0 +1,395 @@
+.header .container img{
+    width: 30vw;
+}
+
+
+
+.meraimg{
+    /* border: 1px solid green; */
+    border-radius: 1vh;
+    width: 20vw;
+    cursor: pointer;
+
+}
+
+.o-card  img{
+    /* border: 3px solid black; */
+    width: 28vw;
+    /* height: 20vh; */
+}
+.o-card{
+    /* border: 3px solid greenyellow; */
+    margin: auto;
+    padding: 1vh;
+    margin-top: 1vh;
+}
+.meraimg:hover{
+    width: 28.66vw;
+    transition: ease-in-out 0.3s;
+    
+}
+.maincar1{
+    border: 1px solid #a3a09c;
+    padding: 1vh;
+    margin: auto;
+    margin-top: 1vh;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 2vh;
+    box-shadow: 10px 10px #d4d2d0;
+}
+.maincar1:hover{
+    box-shadow: 10px 10px rgb(255, 236, 200);
+}
+
+.maincar1 h5{
+    margin: 1vh 0.3vh;
+    font-size: 1.6rem;
+}
+.maincar1:hover{
+    /* border: 3px solid black; */
+
+}
+.maincar2{
+    /* border: 3px solid rgb(28, 201, 28); */
+    width: 20vw;
+}
+
+.main{
+    /* border: 3px solid violet; */
+    transition: ease-in-out 0.3s;
+    /* margin: 8vh 0.3vh; */
+    padding: 2vh;
+    /* width: ; */
+}
+.main2{
+    /* border: 3px solid slateblue; */
+}
+
+.main-sec{
+    /* border: 1px solid black; */
+    margin: 20vh auto;
+    width: 97vw;
+    
+}
+.social{
+    /* border: 3px solid black; */
+    height: 12vh;
+    justify-content: center;
+    /* margin:auto ; */
+    align-items: center;
+    text-align: center;
+}
+.social ul{
+   /* border: 3px solid yellow; */
+   /* margin: auto; */
+   height: 9vh;
+   width: 26vw;
+   margin: -1vh ;
+
+    
+}
+.social ul a{
+    /* border: 2px solid rgb(60, 94, 11); */
+    margin: 0vh 2vh;
+
+}
+
+/* responsive */
+
+@media (max-width:1283px) {
+
+    .social{
+        /* border: 3px solid black; */
+        justify-content: center;
+        /* margin:auto ; */
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .social ul{
+        height: 10vh;
+        width: 25vw;
+        /* border: 2px solid green; */
+     
+         
+     }
+     .social ul a{
+         /* border: 2px solid rgb(60, 94, 11); */
+         margin: 1vh 1vh;
+     
+     }
+
+    
+}
+@media (max-width:999px) {
+
+    .social{
+        /* border: 3px solid black; */
+        justify-content: center;
+        /* margin:auto ; */
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .social ul{
+        height: 10vh;
+        width: 35vw;
+        /* border: 2px solid green; */
+     
+         
+     }
+     .social ul a{
+         /* border: 2px solid rgb(60, 94, 11); */
+         margin: 1vh 1vh;
+     
+     }
+
+
+     .o-card  img{
+        /* border: 3px solid black; */
+        width: 40vw;
+        /* height: 20vh; */
+    }
+    .meraimg:hover{
+        width: 40.44vw;
+        transition: ease-in-out 0.3s;
+    }
+
+    
+}
+@media (max-width:888px) 
+{
+    .header .container img
+    {
+       width: 40vw;
+       /* border: 2px solid black; */
+    }
+    
+    .social{
+        /* border: 3px solid black; */
+        justify-content: center;
+        /* margin:auto ; */
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .social ul{
+        height: 10vh;
+        width: 35vw;
+        /* border: 2px solid green; */
+     
+         
+     }
+     .social ul a{
+         /* border: 2px solid rgb(60, 94, 11); */
+         margin: 1vh 0.5vh;
+     
+     }
+
+    
+}
+/* @media (max-width:985px) {
+    .meraimg{
+        border: 3px solid green;
+        border-radius: 1vh;
+        width: 25vw;
+    
+    }
+
+    .meraimg:hover{
+        width: 26vw;
+        transition: ease-in-out 0.3s;
+    }
+    
+} */
+/* @media (max-width:750px) {
+    .meraimg{
+        border: 3px solid green;
+        border-radius: 1vh;
+        width: 30vw;
+    
+    }
+
+    .meraimg:hover{
+        width: 32vw;
+        transition: ease-in-out 0.3s;
+    }
+    
+} */
+/* @media (max-width:600px) {
+    .meraimg{
+        border: 3px solid green;
+        border-radius: 1vh;
+        width: 36vw;
+    
+    }
+
+    .meraimg:hover{
+        width: 38vw;
+        transition: ease-in-out 0.3s;
+    }
+    
+} */
+@media (max-width:586px) {
+    
+    .header .container img{
+       width: 48vw;
+       /* border: 2px solid black; */
+    }
+    
+    .o-card  img{
+        /* border: 3px solid black; */
+        width: 70vw;
+        /* height: 20vh; */
+    }
+
+    .meraimg:hover{
+        width: 70.66vw;
+        transition: ease-in-out 0.3s;
+    }
+
+    .social{
+        /* border: 3px solid black; */
+        justify-content: center;
+        /* margin:auto ; */
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .social ul{
+        height: 10vh;
+        width: 62vw;
+        /* border: 2px solid green; */
+     
+         
+     }
+     .social ul a{
+         /* border: 2px solid rgb(60, 94, 11); */
+         margin: 1vh 0.5vh;
+     
+     }
+
+
+
+
+    
+}
+/* @media (max-width:500px) {
+    .meraimg{
+        border: 3px solid green;
+        border-radius: 1vh;
+        width: 45vw;
+        
+    }
+    
+    .meraimg:hover{
+        width: 47vw;
+        transition: ease-in-out 0.3s;
+    }
+    
+} */
+@media (max-width:450px) {
+    
+    .header .container img{
+        width: 52vw;
+        /* border: 2px solid black; */
+    }
+    
+    .o-card  img{
+        /* border: 3px solid black; */
+        width: 77vw;
+        /* height: 20vh; */
+    }
+    .meraimg:hover{
+        width: 77.88vw;
+        transition: ease-in-out 0.3s;
+    }
+    .social{
+        /* border: 3px solid black; */
+        justify-content: center;
+        /* margin:auto ; */
+        align-items: center;
+        text-align: center;
+    }
+    
+    
+    .social ul{
+        height: 10vh;
+        width: 64vw;
+        /* border: 2px solid green; */
+        
+        
+    }
+    .social ul a{
+        /* border: 2px solid rgb(60, 94, 11); */
+        margin: 1vh 0.5vh;
+        
+    }
+    
+    
+    
+    
+}
+/* @media (max-width:400px) {
+    .meraimg{
+        border: 3px solid green;
+        border-radius: 1vh;
+        width: 50vw;
+        
+    }
+    
+    .meraimg:hover{
+        width: 52vw;
+        transition: ease-in-out 0.3s;
+    }
+    
+} */
+
+
+
+@media (max-width:388px) {
+    
+    
+        .header .container img{
+            width: 55vw;
+            /* border: 2px solid black; */
+        }
+    
+    .o-card  img{
+        /* border: 3px solid black; */
+        width: 80vw;
+        /* height: 20vh; */
+    }
+    
+    .meraimg:hover{
+        width: 80.66vw;
+        transition: ease-in-out 0.3s;
+    }
+    
+    .social{
+        /* border: 3px solid black; */
+        justify-content: center;
+        /* margin:auto ; */
+        align-items: center;
+        text-align: center;
+    }
+    
+    
+    .social ul{
+        height: 10vh;
+        width: 75vw;
+        /* border: 2px solid green; */
+        
+        
+    }
+    .social ul a{
+        /* border: 2px solid rgb(60, 94, 11); */
+        margin: 1vh 0.5vh;
+        
+    } 
+    
+}
