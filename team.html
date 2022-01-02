@@ -31,6 +31,67 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 
     <link rel="stylesheet" href="css/mycss.css">
+ <style type="text/css">
+        /*@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css';
+        @import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css';
+        @import 'https://fonts.googleapis.com/css?family=Raleway:100,600';
+        @import 'https://fonts.googleapis.com/css?family=Open+Sans:300';*/
+
+.team-img img{
+  width: 100%;
+  transition: .3s;
+}
+.single-team:hover .team-img img {
+  transform: scale(1.1);
+}
+.team-content{
+height: 80px;
+width: 100%;
+position: absolute;
+text-align: center;
+overflow: hidden;
+bottom: 0;
+transition: all .4s;
+background: tomato;
+z-index:5;}
+.single-team:hover .team-content{
+  height: 112px;
+}
+.team-info {
+  padding: 5px 20px 5px 20px;
+  transition: all .5s;
+}
+.single-team:hover .team-content{
+  background: #000;
+}
+.single-team .team-content .team-info h3 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+  margin: 5px;
+}
+.single-team:hover .team-info h3{
+  color: tomato;
+}
+.team-info p {
+  margin-top: 15px;
+  color: #fff;
+}
+.team-info h4 {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 14px;
+}
+.social a{
+  text-decoration:none;
+  color:#fff;
+  font-size:20px;
+}
+.team-text {
+  color: #fff;
+  padding: 0 10px 5px;
+}
+   </style>
 </head>
 
 <body>
@@ -86,187 +147,259 @@
 
 
     <!-- New card End here -->
-    <div class="maincont">
-
-
-        <section class="bg-center py-12 main-sec" id="about"
-            style="background: url(img/service-bg.svg) no-repeat; background-size: cover">
-            <!-- <section class="about py-0 main container"> -->
-            <h2 class="mb-5 text-primary">One spirit, one team, one win</h2>
-            <div class="row pb-5">
-
-                <div class="o-card">
-                    <div class="maincar1">
-                        <div class="testimo "><img class="meraimg" src="img/team-3.jpg" alt="" /></div>
-                        <h5 class="font-weight-bold mb-0">John Dyn</h5>
-                        <p class="text-primary mb-0 text-muted text-small font-weight-bold">Senior Web Developer</p>
-                        <div class="social">
-                            <ul class="list-inline-item-center mb-lg-0 my-3 scl_link_btn">
-                                <li class="list-inline-item"><a class="social-link"
-                                        href="https://www.facebook.com/vidyayan.edu"><i
-                                            class="fab fa-facebook-f"></i></a></li>
-                                <li class="list-inline-item"><a class="social-link"
-                                        href="https://www.linkedin.com/company/vidyayan"><i
-                                            class="fab fa-linkedin-in"></i></a> </li>
-                                <li class="list-inline-item"><a class="social-link"
-                                        href="https://www.instagram.com/vidyayan_edu/"><i
-                                            class="fab fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
+    <div class="team-area">
+        <div class="container">
+            <div class="row" style="height: 120px;"></div>
+          <div class="row">
+            <!--== Single Team Item ==-->
+            <div class="col-md-3">
+              <div class="single-team" style="padding-bottom: 70px;
+              position: relative;
+              z-index: 1;
+              overflow: hidden;
+              margin-left: 6px;
+              margin-right: 6px;
+              margin-top: 10px;border-radius: 5px;
+              box-shadow:5px 5px 15px #000;">
+                <div class="team-img" style="position: relative;
+                z-index: 5;
+                overflow: hidden;">
+                  <img style="width: 100%;
+                  transition: .3s;" src="/img/profile-1.jpg" alt="" class="img-responsive">
                 </div>
-
-                <div class="o-card">
-                    <div class="maincar1">
-                        <div class="testimo "><img class="meraimg" src="img/team-3.jpg" alt="" /></div>
-                        <h5 class="font-weight-bold mb-0">John Dyn</h5>
-                        <p class="text-primary mb-0 text-muted text-small font-weight-bold">Senior Web Developer</p>
-                        <div class="social">
-                            <ul class="list-inline-item-center mb-lg-0 my-3 scl_link_btn">
-                                <li class="list-inline-item"><a class="social-link"
-                                        href="https://www.facebook.com/vidyayan.edu"><i
-                                            class="fab fa-facebook-f"></i></a></li>
-                                <li class="list-inline-item"><a class="social-link"
-                                        href="https://www.linkedin.com/company/vidyayan"><i
-                                            class="fab fa-linkedin-in"></i></a> </li>
-                                <li class="list-inline-item"><a class="social-link"
-                                        href="https://www.instagram.com/vidyayan_edu/"><i
-                                            class="fab fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="team-content">
+                  <div class="team-info">
+                    <h3>Lisa Ray</h3>
+                    <h4>Web Developer</h4>
+                  </div>
+                  <div class="social">
+                  <!--<p class="team-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quasi, vel.<br>-->
+                  <a href="#"><span class="fab fa-facebook-f"></span></a>&nbsp;&nbsp;
+                  <a href="#"><span class="fab fa-instagram"></span></a>&nbsp;&nbsp;
+                  <a href="#"><span class="fab fa-linkedin"></span></a>
+                  </div>
                 </div>
-
-                <div class="o-card">
-                    <div class="maincar1">
-                        <div class="testimo "><img class="meraimg" src="img/team-3.jpg" alt="" /></div>
-                        <h5 class="font-weight-bold mb-0">John Dyn</h5>
-                        <p class="text-primary mb-0 text-muted text-small font-weight-bold">Senior Web Developer</p>
-                        <div class="social">
-                            <ul class="list-inline-item-center mb-lg-0 my-3 scl_link_btn">
-                                <li class="list-inline-item"><a class="social-link"
-                                        href="https://www.facebook.com/vidyayan.edu"><i
-                                            class="fab fa-facebook-f"></i></a></li>
-                                <li class="list-inline-item"><a class="social-link"
-                                        href="https://www.linkedin.com/company/vidyayan"><i
-                                            class="fab fa-linkedin-in"></i></a> </li>
-                                <li class="list-inline-item"><a class="social-link"
-                                        href="https://www.instagram.com/vidyayan_edu/"><i
-                                            class="fab fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="o-card">
-                    <div class="maincar1">
-                        <div class="testimo "><img class="meraimg" src="img/team-3.jpg" alt="" /></div>
-                        <h5 class="font-weight-bold mb-0">John Dyn</h5>
-                        <p class="text-primary mb-0 text-muted text-small font-weight-bold">Senior Web Developer</p>
-                        <div class="social">
-                            <ul class="list-inline-item-center mb-lg-0 my-3 scl_link_btn">
-                                <li class="list-inline-item"><a class="social-link"
-                                        href="https://www.facebook.com/vidyayan.edu"><i
-                                            class="fab fa-facebook-f"></i></a></li>
-                                <li class="list-inline-item"><a class="social-link"
-                                        href="https://www.linkedin.com/company/vidyayan"><i
-                                            class="fab fa-linkedin-in"></i></a> </li>
-                                <li class="list-inline-item"><a class="social-link"
-                                        href="https://www.instagram.com/vidyayan_edu/"><i
-                                            class="fab fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="o-card">
-                    <div class="maincar1">
-                        <div class="testimo "><img class="meraimg" src="img/team-3.jpg" alt="" /></div>
-                        <h5 class="font-weight-bold mb-0">John Dyn</h5>
-                        <p class="text-primary mb-0 text-muted text-small font-weight-bold">Senior Web Developer</p>
-                        <div class="social">
-                            <ul class="list-inline-item-center mb-lg-0 my-3 scl_link_btn">
-                                <li class="list-inline-item"><a class="social-link"
-                                        href="https://www.facebook.com/vidyayan.edu"><i
-                                            class="fab fa-facebook-f"></i></a></li>
-                                <li class="list-inline-item"><a class="social-link"
-                                        href="https://www.linkedin.com/company/vidyayan"><i
-                                            class="fab fa-linkedin-in"></i></a> </li>
-                                <li class="list-inline-item"><a class="social-link"
-                                        href="https://www.instagram.com/vidyayan_edu/"><i
-                                            class="fab fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="o-card">
-                    <div class="maincar1">
-                        <div class="testimo "><img class="meraimg" src="img/team-3.jpg" alt="" /></div>
-                        <h5 class="font-weight-bold mb-0">John Dyn</h5>
-                        <p class="text-primary mb-0 text-muted text-small font-weight-bold">Senior Web Developer</p>
-                        <div class="social">
-                            <ul class="list-inline-item-center mb-lg-0 my-3 scl_link_btn">
-                                <li class="list-inline-item"><a class="social-link"
-                                        href="https://www.facebook.com/vidyayan.edu"><i
-                                            class="fab fa-facebook-f"></i></a></li>
-                                <li class="list-inline-item"><a class="social-link"
-                                        href="https://www.linkedin.com/company/vidyayan"><i
-                                            class="fab fa-linkedin-in"></i></a> </li>
-                                <li class="list-inline-item"><a class="social-link"
-                                        href="https://www.instagram.com/vidyayan_edu/"><i
-                                            class="fab fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <!-- <div class="col-lg-6 mx-auto">
-                        <div class="owl-carousel owl-theme testimonials-slider">
-                            <div class="mx-3 mx-lg-5 my-5 pt-3">
-                                <div class="card shadow rounded-lg px-4 py-5 px-lg-5 with-pattern bg-white border-0">
-                                    <div class="card-body index-forward pt-5 rounded-lg">
-                                        <div class="testimonial-img"><img class="rounded-circle" src="img/profile-1.jpg" alt="" /></div>
-                                        <h5 class="font-weight-bold mb-0">Suresh Vidyarthi</h5>
-                                        <p class="text-primary mb-0 text-muted text-small font-weight-bold">Founder-Vidyayan</p>
-                                        <ul class="list-inline-item-center mb-lg-0 my-3 scl_link_btn">                                            <li class="list-inline-item"><a class="social-link" href="https://www.facebook.com/vidyayan.edu"><i class="fab fa-facebook-f"></i></a></li> <li class="list-inline-item"><a class="social-link" href="https://www.linkedin.com/company/vidyayan"><i class="fab fa-linkedin-in"></i></a> </li> <li class="list-inline-item"><a class="social-link" href="https://www.instagram.com/vidyayan_edu/"><i class="fab fa-instagram"></i></a></li> </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-
-
-
+              </div>
             </div>
-    </div>
+            <!--== Single Team Item ==-->
+            <div class="col-md-3">
+                <div class="single-team" style="padding-bottom: 70px;
+                position: relative;
+                z-index: 1;
+                overflow: hidden;
+                margin-left: 6px;
+                margin-right: 6px;
+                margin-top: 10px;border-radius: 5px;
+                box-shadow:5px 5px 15px #000;">
+                  <div class="team-img" style="position: relative;
+                  z-index: 5;
+                  overflow: hidden;">
+                    <img style="width: 100%;
+                    transition: .3s;" src="/img/profile-2.jpg" alt="" class="img-responsive">
+                  </div>
+                  <div class="team-content">
+                    <div class="team-info">
+                      <h3>Lisa Ray</h3>
+                      <h4>Web Developer</h4>
+                    </div>
+                    <div class="social">
+                    <!--<p class="team-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quasi, vel.<br>-->
+                    <a href="#"><span class="fab fa-facebook-f"></span></a>&nbsp;&nbsp;
+                    <a href="#"><span class="fab fa-instagram"></span></a>&nbsp;&nbsp;
+                    <a href="#"><span class="fab fa-linkedin"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!--== Single Team Item ==-->
+            <div class="col-md-3">
+                <div class="single-team" style="padding-bottom: 70px;
+                position: relative;
+                z-index: 1;
+                overflow: hidden;
+                margin-left: 6px;
+                margin-right: 6px;
+                margin-top: 10px;border-radius: 5px;
+                box-shadow:5px 5px 15px #000;">
+                  <div class="team-img" style="position: relative;
+                  z-index: 5;
+                  overflow: hidden;">
+                    <img style="width: 100%;
+                    transition: .3s;" src="/img/profile-3.png" alt="" class="img-responsive">
+                  </div>
+                  <div class="team-content">
+                    <div class="team-info">
+                      <h3>Lisa Ray</h3>
+                      <h4>Web Developer</h4>
+                    </div>
+                    <div class="social">
+                    <!--<p class="team-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quasi, vel.<br>-->
+                    <a href="#"><span class="fab fa-facebook-f"></span></a>&nbsp;&nbsp;
+                    <a href="#"><span class="fab fa-instagram"></span></a>&nbsp;&nbsp;
+                    <a href="#"><span class="fab fa-linkedin"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!--== Single Team Item ==-->
+            <div class="col-md-3">
+                <div class="single-team" style="padding-bottom: 70px;
+                position: relative;
+                z-index: 1;
+                overflow: hidden;
+                margin-left: 6px;
+                margin-right: 6px;
+                margin-top: 10px;border-radius: 5px;
+                box-shadow:5px 5px 15px #000;">
+                  <div class="team-img" style="position: relative;
+                  z-index: 5;
+                  overflow: hidden;">
+                    <img style="width: 100%;
+                    transition: .3s;" src="/img/profile-1.jpg" alt="" class="img-responsive">
+                  </div>
+                  <div class="team-content">
+                    <div class="team-info">
+                      <h3>Lisa Ray</h3>
+                      <h4>Web Developer</h4>
+                    </div>
+                    <div class="social">
+                    <!--<p class="team-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quasi, vel.<br>-->
+                    <a href="#"><span class="fab fa-facebook-f"></span></a>&nbsp;&nbsp;
+                    <a href="#"><span class="fab fa-instagram"></span></a>&nbsp;&nbsp;
+                    <a href="#"><span class="fab fa-linkedin"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="row" style="height: 120px;"></div>
+          <div class="row">
+            <!--== Single Team Item ==-->
+            <div class="col-md-3">
+              <div class="single-team" style="padding-bottom: 70px;
+              position: relative;
+              z-index: 1;
+              overflow: hidden;
+              margin-left: 6px;
+              margin-right: 6px;
+              margin-top: 10px;border-radius: 5px;
+              box-shadow:5px 5px 15px #000;">
+                <div class="team-img" style="position: relative;
+                z-index: 5;
+                overflow: hidden;">
+                  <img style="width: 100%;
+                  transition: .3s;" src="/img/profile-1.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="team-content">
+                  <div class="team-info">
+                    <h3>Lisa Ray</h3>
+                    <h4>Web Developer</h4>
+                  </div>
+                  <div class="social">
+                  <!--<p class="team-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quasi, vel.<br>-->
+                  <a href="#"><span class="fab fa-facebook-f"></span></a>&nbsp;&nbsp;
+                  <a href="#"><span class="fab fa-instagram"></span></a>&nbsp;&nbsp;
+                  <a href="#"><span class="fab fa-linkedin"></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--== Single Team Item ==-->
+            <div class="col-md-3">
+                <div class="single-team" style="padding-bottom: 70px;
+                position: relative;
+                z-index: 1;
+                overflow: hidden;
+                margin-left: 6px;
+                margin-right: 6px;
+                margin-top: 10px;border-radius: 5px;
+                box-shadow:5px 5px 15px #000;">
+                  <div class="team-img" style="position: relative;
+                  z-index: 5;
+                  overflow: hidden;">
+                    <img style="width: 100%;
+                    transition: .3s;" src="/img/profile-2.jpg" alt="" class="img-responsive">
+                  </div>
+                  <div class="team-content">
+                    <div class="team-info">
+                      <h3>Lisa Ray</h3>
+                      <h4>Web Developer</h4>
+                    </div>
+                    <div class="social">
+                    <!--<p class="team-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quasi, vel.<br>-->
+                    <a href="#"><span class="fab fa-facebook-f"></span></a>&nbsp;&nbsp;
+                    <a href="#"><span class="fab fa-instagram"></span></a>&nbsp;&nbsp;
+                    <a href="#"><span class="fab fa-linkedin"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!--== Single Team Item ==-->
+            <div class="col-md-3">
+                <div class="single-team" style="padding-bottom: 70px;
+                position: relative;
+                z-index: 1;
+                overflow: hidden;
+                margin-left: 6px;
+                margin-right: 6px;
+                margin-top: 10px;border-radius: 5px;
+                box-shadow:5px 5px 15px #000;">
+                  <div class="team-img" style="position: relative;
+                  z-index: 5;
+                  overflow: hidden;">
+                    <img style="width: 100%;
+                    transition: .3s;" src="/img/profile-3.png" alt="" class="img-responsive">
+                  </div>
+                  <div class="team-content">
+                    <div class="team-info">
+                      <h3>Lisa Ray</h3>
+                      <h4>Web Developer</h4>
+                    </div>
+                    <div class="social">
+                    <!--<p class="team-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quasi, vel.<br>-->
+                    <a href="#"><span class="fab fa-facebook-f"></span></a>&nbsp;&nbsp;
+                    <a href="#"><span class="fab fa-instagram"></span></a>&nbsp;&nbsp;
+                    <a href="#"><span class="fab fa-linkedin"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!--== Single Team Item ==-->
+            <div class="col-md-3">
+                <div class="single-team" style="padding-bottom: 70px;
+                position: relative;
+                z-index: 1;
+                overflow: hidden;
+                margin-left: 6px;
+                margin-right: 6px;
+                margin-top: 10px;border-radius: 5px;
+                box-shadow:5px 5px 15px #000;">
+                  <div class="team-img" style="position: relative;
+                  z-index: 5;
+                  overflow: hidden;">
+                    <img style="width: 100%;
+                    transition: .3s;" src="/img/profile-1.jpg" alt="" class="img-responsive">
+                  </div>
+                  <div class="team-content">
+                    <div class="team-info">
+                      <h3>Lisa Ray</h3>
+                      <h4>Web Developer</h4>
+                    </div>
+                    <div class="social">
+                    <!--<p class="team-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quasi, vel.<br>-->
+                    <a href="#"><span class="fab fa-facebook-f"></span></a>&nbsp;&nbsp;
+                    <a href="#"><span class="fab fa-instagram"></span></a>&nbsp;&nbsp;
+                    <a href="#"><span class="fab fa-linkedin"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
     </section>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- Footer part  -->
     <footer class="with-pattern-1 position-relative" id="vsoc_contact">
